@@ -114,19 +114,7 @@
 		}
 		</style>
     </head>
-    <body>
-
-	    const textElement = document.querySelector('.text');
-const words = ['Hello', 'World!', 'Welcome', 'to', 'my', 'website!'];
-let wordIndex = 0;
-function typeNextWord() {
-textElement.textContent = words[wordIndex];
-wordIndex = (wordIndex + 1) % words.length;
-setTimeout(typeNextWord, 2000); // Delay between word changes (in milliseconds)
-}
-typeNextWord();
-
-	    
+    <body>	    
 	<div id="body">
 	<div id="logo1"><img src="images/stake-2.jpg
 	" alt="012logo" width="200px"></div>
@@ -191,6 +179,17 @@ typeNextWord();
 	<div id="spacer">
 	</div>
 	<div class="menu">
+	
+		    const textElement = document.querySelector('.text');
+const words = ['Hello', 'World!', 'Welcome', 'to', 'my', 'website!'];
+let wordIndex = 0;
+function typeNextWord() {
+textElement.textContent = words[wordIndex];
+wordIndex = (wordIndex + 1) % words.length;
+setTimeout(typeNextWord, 2000); // Delay between word changes (in milliseconds)
+}
+typeNextWord();	
+		
 	<div id="banner"><img src="images/BANNER-2.jpg" alt="artwork" width="500px">
 	</div>
 	</div>
