@@ -48,12 +48,26 @@
 <p class="color2 margin"><span class="command">banner</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Display the header</p>
 <p class="color2 margin"><br></p><a id="before"></a>
     </div>
-    <div id="command" onclick="$('texter').focus();">
-      <textarea type="text" id="texter" onkeyup="typeIt(this, event)" onkeydown="typeIt(this, event); 
-                   moveIt(this.value.length, event)" onkeypress="typeIt(this, event);" autofocus=""></textarea>
-      <div id="liner">
-        <span id="typer"></span><b class="cursor" id="cursor" style="left: 0px;">█</b>
-      </div>
+    <textarea id="texter" autofocus=""></textarea>
+    <div id="liner" class="typewriter"></div>
+
+    <script>
+        const textArea = document.getElementById('texter');
+        const liner = document.getElementById('liner');
+
+        textArea.addEventListener('input', () => {
+            liner.textContent = textArea.value;
+        });
+
+        textArea.addEventListener('keydown', (event) => {
+            moveIt(textArea.value.length, event);
+        });
+
+        function moveIt(length, event) {
+            // Implement your custom logic here
+            console.log(`Current length: ${length}, Key: ${event.key}`);
+        }
+    </script>
     </div>
     <script src="js/caret.js"></script>
     <script src="js/commands.js"></script>
