@@ -113,7 +113,13 @@
 		font-family:courier;
 		}
 		</style>
+	    
+	    <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
+	    
     </head>
+	
     <body>	    
 	<div id="body">
 		
@@ -157,6 +163,18 @@
 	<p id="GameText">enter<br>
 	<!-- <img src="images/Old-School-Top.jpg" alt="skateboard" width="200px"> <img src="images/Old-School-Bottom.jpg" alt="skateboard-2" width="200px"> -->
 	</div>
+		<div>
+			<script>
+$('body').terminal({
+    hello: function(what) {
+        this.echo('Hello, ' + what +
+                  '. Wellcome to this terminal.');
+    }
+}, {
+    greetings: 'terminaltest'
+});
+</script>
+		</div>
 	</div>
 	<p class="return"> <a href #header>Return to menu </a></p>
 	<div id="spacer">
