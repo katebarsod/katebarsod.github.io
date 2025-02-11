@@ -1,78 +1,199 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-QJ9TR5T9S2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-QJ9TR5T9S2');
-    </script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FK Codes | Terminal</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-    <link rel="icon" type="image/x-icon" href="img/fav-icon.png">
-  </head>
-  <body>
-    <div id="terminal">
-      <p class=""><span class="index">ForrestKnight (FK) Not A Corporation. All knights reserved.</span></p>
-<p class="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ___&nbsp;&nbsp; ____</p>
-<p class="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /' --;^/ ,-_\&nbsp;&nbsp;&nbsp;&nbsp; \ | /&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
-<p class="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/ / --o\ o-\ \\&nbsp;&nbsp; --(_)--&nbsp;&nbsp; </p>
-<p class="">&nbsp;&nbsp;&nbsp;&nbsp; /-/-/|o|-|\-\\|\\&nbsp;&nbsp; / | \&nbsp;&nbsp; ______&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp; __ __&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; __&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp; </p>
-<p class="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'`&nbsp;&nbsp;` |-|&nbsp;&nbsp; `` '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/ ____/___&nbsp;&nbsp;_____________&nbsp;&nbsp;_____/ /_&nbsp;&nbsp; / //_/____&nbsp;&nbsp;(_)___ _/ /_&nbsp;&nbsp;/ /_ </p>
-<p class="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/ /_&nbsp;&nbsp;/ __ \/ ___/ ___/ _ \/ ___/ __/&nbsp;&nbsp;/ ,&lt;&nbsp;&nbsp;/ __ \/ / __ `/ __ \/ __/ </p>
-<p class="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-|O&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/ __/ / /_/ / /&nbsp;&nbsp;/ /&nbsp;&nbsp;/&nbsp;&nbsp;__(__&nbsp;&nbsp;) /_&nbsp;&nbsp; / /| |/ / / / / /_/ / / / / /_&nbsp;&nbsp;</p>
-<p class="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-(\,__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/_/&nbsp;&nbsp;&nbsp;&nbsp;\____/_/&nbsp;&nbsp;/_/&nbsp;&nbsp; \___/____/\__/&nbsp;&nbsp;/_/ |_/_/ /_/_/\__, /_/ /_/\__/ </p>
-<p class="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...|-|\--,\_....&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /____/&nbsp;&nbsp;&nbsp;&nbsp;© 2022</p>
-<p class="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,;;;;;;;;;;;;;;;;;;;;;;;;,.&nbsp;&nbsp; </p>
-<p class="">~~,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
-<p class=""><span class="color2">Welcome to my interactive web terminal.</span></p>
-<p class=""><span class="color2">For a list of available commands, type</span> <span class="command">'help'</span><span class="color2">.</span></p>
-<p class="no-animation">visitor@fkcodes.com:~$ help</p><p class="color2 margin"><br></p>
-<p class="color2 margin"><span class="command">whois</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Who is Forrest?</p>
-<p class="color2 margin"><span class="command">whoami</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Who are you?</p>
-<p class="color2 margin"><span class="command">video</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;View YouTube videos</p>
-<p class="color2 margin"><span class="command">social</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Display social networks</p>
-<p class="color2 margin"><span class="command">secret</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Find the password</p>
-<p class="color2 margin"><span class="command">projects</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; View coding projects</p>
-<p class="color2 margin"><span class="command">history</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;View command history</p>
-<p class="color2 margin"><span class="command">help</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You obviously already know what this does</p>
-<p class="color2 margin"><span class="command">email</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Do not email me</p>
-<p class="color2 margin"><span class="command">clear</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clear terminal</p>
-<p class="color2 margin"><span class="command">banner</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Display the header</p>
-<p class="color2 margin"><br></p><a id="before"></a>
-    </div>
-    <textarea id="texter" autofocus=""></textarea>
-    <div id="liner" class="typewriter"></div>
+    <head>
+	    <style>
+		body{
+		background-color:black;
+		}
+		#body{
+		width:75%;
+		margin:auto;
+		padding:20px;
+		}
 
-    <script>
-        const textArea = document.getElementById('texter');
-        const liner = document.getElementById('liner');
+		    
+        <meta charset="utf-8">
+        <title>kate_barsod</title>
+		<style>
+		body{
+		background-color:black;
+		}
+		#body{
+		width:75%;
+		margin:auto;
+		padding:20px;
+		}
+		#header{
+		color:rgb(255, 0, 174);
+		font-family:courier, monospace;
+		font-size:1.5em;
+		}
+		.subs{
+		color:rgb(255, 0, 174);
+		font-family:courier, monospace;
+		font-size:0.75em;
+		}
+		#pagenav{
+		width:auto;
+		height:auto;
+		overflow-y:auto;
+		margin:10px;
+		border: 1px solid rgb(255, 0, 174);
+		padding:20px;
+		}
+		#spacer{
+		width=75%;
+		height:100px;
+		padding=20px;
+		}
+		.menu{
+		color:rgb(255, 0, 174);
+		font-family:courier, monospace;
+		font-size:1em;
+		}
+		#AboutText{ 
+		width:auto;
+		height:auto;
+		overflow-y:auto;
+		margin:10px;
+		border: 1px solid rgb(255, 0, 174);
+		padding:20px;
+		}
+		#AboutBody{
+		font-size:1em;
+		}
+		#AboutText{
+		font-size:0.75em;
+		}
+		#ContactText{
+		font-size:0.75em;
+		}
+		#GameText{
+		font-size:0.75em;
+		}
+		#ContactText{ 
+		width:auto;
+		height:auto;
+		overflow-y:auto;
+		margin:10px;
+		border: 1px solid rgb(255, 0, 174);
+		padding:20px;
+		}
+		#GameText{ 
+		width:auto;
+		height:auto;
+		overflow-y:auto;
+		margin:10px;
+		border: 1px solid rgb(255, 0, 174);
+		padding:20px;
+		}
+		#VideosText{ 
+		width:auto;
+		height:auto;
+		overflow-y:auto;
+		margin:10px;
+		border: 1px solid rgb(255, 0, 174);
+		padding:20px;
+        font-size:0.75em;
+		}
+		    #PictureText{ 
+		width:auto;
+		height:auto;
+		overflow-y:auto;
+		margin:10px;
+		border: 1px solid rgb(255, 0, 174);
+		padding:20px;
+		}
+		    #Picture{ 
+		width:auto;
+		height:auto;
+		overflow-y:visible;
+		margin:10px;
+		border: 1px solid rgb(255, 0, 174);
+		padding:20px;
+		}
+		#banner{ 
+		width:500px;
+		height:300px;
+		overflow-y:visible;
+		margin:10px;
+		border: 0px solid rgb(255, 0, 174);
+		padding:20px;
+		}
+		.return{
+		color:rgb(255, 0, 174);
+		font-family:courier;
+		font-size:0.75em;
+		}
+		a {
+		color:rgb(255, 0, 174);
+		font-family:courier;
+		}
+		</style>
+    </head>
+    <body>	    
+	<div id="body">
+		
+	<div id="logo1"><img src="images/stake-black.png
+	" alt="stakevampire" width="500px"></div>
+	<h1 id="header"> Welcome </h1>
+	<div id="pagenav">
+	<div class="subs"> <h2> <a href = #AboutBody> About </a> </h2> </div>
+	<div class="subs"> <h2> <a href = #ContactBody> Contact </a> </h2> </div>
+	<div class="subs"> <h2> <a href = #GameBody> Game </a> </h2> </div>
+	<div class="subs"> <h2> <a href = #VideosBody> Videos </a> </h2> </div>
+	</div>
+	<div id="spacer">
+	</div>
+		<div id="spacer">
+	</div>
+		<div id="spacer">
+	</div>
+	<div class="menu">
+	<h3 id="AboutBody"> About </h3>
+	<div class="menutext">
+	<p id="AboutText"> this is about information <br>
+	</div>
+	</div>
+	<p class="return"> <a href #header>Return to menu </a></p>
+	<div id="spacer">
+	</div>
+	<div class="menu">
+	<h3 id="ContactBody"> Contact Someone</h3>
+	<div class="menutext">
+	<p id="ContactText"> Call us at 0126550125<br>
+	</p>
+	</div>
+	</div>
+	<p class="return"> <a href #header>Return to menu </a></p>
+	<div id="spacer">
+	</div>
+	<div class="menu">
+	<h3 id="GameBody">play the game</h3>
+	<div class="menutext">
+	<p id="GameText">enter<br>
+	<!-- <img src="images/Old-School-Top.jpg" alt="skateboard" width="200px"> <img src="images/Old-School-Bottom.jpg" alt="skateboard-2" width="200px"> -->
+	</div>
+	</div>
+	<p class="return"> <a href #header>Return to menu </a></p>
+	<div id="spacer">
+	</div>
+	<div class="menu">
+	<h3 id="VideosBody">watch a video</h3>
+	<div class="menutext">
+	<p id="VideosText">here's a video to watch<br>
+	<iframe width="480" height="270" src="https://www.youtube.com/embed/eG0VLTrTgEA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></a>
+	</div>
+	<p class="return"> <a href #header>Return to menu </a></p>
+	<div id="spacer">
+	</div>
+	<div class="menu">
 
-        textArea.addEventListener('input', () => {
-            liner.textContent = textArea.value;
-        });
+		
+	<div id="banner"><img src="images/stake-black.png" alt="artwork" width="500px">
+	</div>
+	</div>
+	</div>
 
-        textArea.addEventListener('keydown', (event) => {
-            moveIt(textArea.value.length, event);
-        });
-
-        function moveIt(length, event) {
-            // Implement your custom logic here
-            console.log(`Current length: ${length}, Key: ${event.key}`);
-        }
-    </script>
-    </div>
-    <script src="js/caret.js"></script>
-    <script src="js/commands.js"></script>
-    <script src="js/main.js"></script>
-  
-
-</body>
+	</body>
 </html>
