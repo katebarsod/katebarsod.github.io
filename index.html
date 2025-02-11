@@ -87,6 +87,16 @@
 		border: 1px solid rgb(255, 0, 174);
 		padding:20px;
 		}
+
+		    #GameTerminal{ 
+		width:auto;
+		height:auto;
+		overflow-y:auto;
+		margin:10px;
+		border: 1px solid rgb(255, 0, 174);
+		padding:20px;
+		}
+		    
 		#VideosText{ 
 		width:auto;
 		height:auto;
@@ -113,10 +123,6 @@
 		font-family:courier;
 		}
 		</style>
-	    
-	    <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
 	    
     </head>
 	
@@ -162,8 +168,14 @@
 	<div class="menutext">
 	<p id="GameText">enter<br>
 	<!-- <img src="images/Old-School-Top.jpg" alt="skateboard" width="200px"> <img src="images/Old-School-Bottom.jpg" alt="skateboard-2" width="200px"> -->
+	<div id="spacer">
 	</div>
-		<div>
+		<div class="menu">
+			<h3 id="GameTermianl">__terminal__</h3>
+			<script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
+			
 			<script>
 $('body').terminal({
     hello: function(what) {
