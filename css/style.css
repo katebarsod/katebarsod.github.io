@@ -61,7 +61,7 @@ b {
 }
 #liner::before {
   color: #519975;
-  content: "visitor@fkcodes.com:~$";
+  content: "type:/>";
 }
 #liner.password::before {
   content: "Password:";
