@@ -12,7 +12,7 @@ body {
 }
 
 .main {
-    background-color: black;
+    background-color: #000000;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 225, 25, 1);
     padding: 10px 20px;
@@ -31,7 +31,7 @@ label {
     margin-top: 10px;
     margin-bottom: 5px;
     text-align: center;
-    color: #00e119d9;
+    color: #3dc90e;
     font-weight: bold;
 }
 
@@ -41,7 +41,7 @@ input {
     margin-bottom: 15px;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #00e119d9;
+    border: 1px solid #3dc90e;
     border-radius: 5px;
 }
 
