@@ -3,7 +3,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: courier-new;
+    font-family: terminal;
     line-height: 1.5;
     min-height: 100vh;
     background: #000000;
@@ -30,8 +30,8 @@ label {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 5px;
-    text-align: left;
-    color: #555;
+    text-align: center;
+    color: #3dc90e;
     font-weight: bold;
 }
 
