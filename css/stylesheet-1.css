@@ -6,15 +6,15 @@ body {
     font-family: sans-serif;
     line-height: 1.5;
     min-height: 100vh;
-    background: #f3f3f3;
+    background: #000000;
     flex-direction: column;
     margin: 0;
 }
 
 .main {
-    background-color: #fff;
+    background-color: #00000;
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 225, 25, 1);
     padding: 10px 20px;
     transition: transform 0.2s;
     width: 500px;
@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-    color: #4CAF50;
+    color: #00e119d9;
 }
 
 label {
@@ -31,7 +31,7 @@ label {
     margin-top: 10px;
     margin-bottom: 5px;
     text-align: left;
-    color: #555;
+    color: #00e119d9;
     font-weight: bold;
 }
 
