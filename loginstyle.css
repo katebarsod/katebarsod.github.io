@@ -6,7 +6,7 @@ body {
     font-family: terminal;
     line-height: 1.5;
     min-height: 100vh;
-    background: #000000;
+    background: #0a0a0a;
     flex-direction: column;
     margin: 0;
 }
@@ -53,7 +53,7 @@ button {
     border: none;
     color: #3dc90e;
     cursor: pointer;
-    background-color: #3dc90e;
+    background-color: #0a0a0a;
     width: 100%;
     font-size: 16px;
 }
