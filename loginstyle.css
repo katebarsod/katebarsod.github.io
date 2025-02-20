@@ -3,18 +3,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: sans-serif;
+    font-family: courier-new;
     line-height: 1.5;
     min-height: 100vh;
-    background: #f3f3f3;
+    background: #000000;
     flex-direction: column;
     margin: 0;
 }
 
 .main {
-    background-color: #fff;
+    background-color: #0a0a0a;
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(61, 201, 14, 0.2);
     padding: 10px 20px;
     transition: transform 0.2s;
     width: 500px;
@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-    color: #4CAF50;
+    color: #3dc90e;
 }
 
 label {
@@ -41,7 +41,7 @@ input {
     margin-bottom: 15px;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #ddd;
+    border: 1px solid #3dc90e;
     border-radius: 5px;
 }
 
@@ -51,9 +51,9 @@ button {
     margin-top: 15px;
     margin-bottom: 15px;
     border: none;
-    color: white;
+    color: #3dc90e;
     cursor: pointer;
-    background-color: #4CAF50;
+    background-color: #0a0a0a;
     width: 100%;
     font-size: 16px;
 }
