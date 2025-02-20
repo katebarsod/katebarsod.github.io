@@ -1,12 +1,12 @@
-/*stylesheet-1.css*/
+/*loginstyle.css*/
 body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: sans-serif;
+    font-family: courier-new;
     line-height: 1.5;
     min-height: 100vh;
-    background: black;
+    background: #000000;
     flex-direction: column;
     margin: 0;
 }
@@ -18,7 +18,7 @@ body {
     padding: 10px 20px;
     transition: transform 0.2s;
     width: 500px;
-    text-align: center;
+    text-align: left;
 }
 
 h1 {
@@ -41,7 +41,7 @@ input {
     margin-bottom: 15px;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #ddd;
+    border: 1px solid #00e119d9;
     border-radius: 5px;
 }
 
@@ -53,7 +53,7 @@ button {
     border: none;
     color: white;
     cursor: pointer;
-    background-color: #4CAF50;
+    background-color: #000000;
     width: 100%;
     font-size: 16px;
 }
