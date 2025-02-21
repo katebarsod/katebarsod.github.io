@@ -59,6 +59,7 @@ button {
     cursor: pointer;
     background-color: #3dc90e;
     width: 100%;
+    font-family: 'Courier New', monospace;
     font-size: 16px;
 }
 
