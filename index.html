@@ -1,42 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>pattern recognition login</title>
-    <link rel="stylesheet" href="loginstyle.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style-reg.css" />
+  <title>pattern recognition</title>
 </head>
 
 <body>
-    <div class="main">
-        <h1>pattern recognition</h1>
-        <h3>enter your username and password</h3>
+  <form action="" method="POST" id="registrationform">
+    <h1>register</h1>
+    <div class="alert">message sent</div>
+    <fieldset>
+      <!-- Section 1 -->
+      <legend><span class="section">1</span>create a username and password</legend>
+      <label class="" for="name">username:</label>
+      <input type="text" name="name" value="" id="name" required />
 
-        <form action="">
-            <label for="first">
-                username:
-            </label>
-            <input type="text" id="first" name="first" 
-                placeholder="enter your username" required>
+      <label class="" for="email">email:</label>
+      <input type="email" name="email" value="" id="email" required />
 
-            <label for="password">
-                password:
-            </label>
-            <input type="password" id="password" name="password" 
-                placeholder="enter your password" required>
+      <label for="password">password:</label>
+      <input type="password" name="password" value="" id="password" required />
+    </fieldset>
 
-            <div class="wrap">
-                <button type="submit">
-                    submit
-                </button>
-            </div>
-        </form>
-        
-        <p><h3>not registered?</h3>
-            <a href="katebarsod.github.io" style="text-decoration: white;">
-               register to play
-            </a>
-        </p>
-    </div>
+
+      <button type="submit" sendMessage()>register</button>
+  </form>
+
+  <script src="https://www.gstatic.com/firebasejs/11.3.1/firebase.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
