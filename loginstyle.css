@@ -69,7 +69,6 @@ button {
     align-items: center;
 }
 
-<style>
 a:link {
   color: #3dc90e;
   background-color: transparent;
@@ -93,4 +92,4 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-</style>
+
