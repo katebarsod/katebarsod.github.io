@@ -45,12 +45,12 @@ input[type='email'],
 input[type='password'],
 textarea,
 select {
-  background: #0a0a0a;
+  background: #3dc90e;
   border: 1px;
   margin-bottom: 25px;
   box-shadow: 2px;
   color: #3dc90e;
-  background-color: #3dc90e;
+  background-color: #0a0a0a;
   width: 100%;
   padding: 15px;
   margin: 0;
