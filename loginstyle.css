@@ -76,13 +76,13 @@ a:link {
 }
 
 a:visited {
-  color: white;
+  color: #3dc90e;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: color:rgb(255, 0, 174);
+  color: rgb(255, 0, 174);
   background-color: transparent;
   text-decoration: underline;
 }
