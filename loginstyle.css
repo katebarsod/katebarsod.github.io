@@ -3,7 +3,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: terminal;
+    font-family: courier new;
     line-height: 1.5;
     min-height: 100vh;
     background: #0a0a0a;
