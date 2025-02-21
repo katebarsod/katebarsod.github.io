@@ -1,33 +1,41 @@
-* {
-  box-sizing: border-box;
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: #0a0a0a;
+    flex-direction: column;
+    margin: 0;
 }
 
-body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-  color: bisque;
-  background-color: lightcyan;
-}
 
 form {
   max-width: 400px;
   margin: 35px auto;
   border-radius: 10px;
   padding: 10px 15px;
-  background: rgb(151, 66, 231);
+  background: #0a0a0a;
 }
 
 h1 {
   margin: 0 0 30px 0;
   text-align: center;
   margin-top: 5px;
+  color: #3dc90e;
 }
+
+h3 {
+    color: #3dc90e;
+}
+
 
 .alert {
   text-align: center;
   padding: 10px;
-  background: rgb(168, 240, 177);
-  color: green;
+  background: #3dc90e;
+  color: black;
   margin-bottom: 10px;
   display: none;
 }
@@ -37,12 +45,12 @@ input[type='email'],
 input[type='password'],
 textarea,
 select {
-  background: lightsteelblue;
+  background: #0a0a0a;
   border: 1px;
   margin-bottom: 25px;
   box-shadow: 2px;
-  color: beige;
-  background-color: rgb(142, 143, 223);
+  color: #3dc90e;
+  background-color: #0a0a0a;
   width: 100%;
   padding: 15px;
   margin: 0;
