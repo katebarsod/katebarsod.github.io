@@ -68,3 +68,29 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+<style>
+a:link {
+  color: #3dc90e;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #3dc90e;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
