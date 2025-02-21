@@ -82,7 +82,7 @@ a:visited {
 }
 
 a:hover {
-  color: white;
+  color: color:rgb(255, 0, 174);
   background-color: transparent;
   text-decoration: underline;
 }
