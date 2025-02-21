@@ -54,10 +54,10 @@ button {
     border-radius: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
-    border: none;
+    border: 1px solid #3dc90e;
     color: #0a0a0a;
     cursor: pointer;
-    background-color: #3dc90e;
+    background-color: #0a0a0a;
     width: 100%;
     font-family: 'Courier New', monospace;
     font-size: 16px;
