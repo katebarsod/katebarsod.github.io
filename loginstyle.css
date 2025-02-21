@@ -14,7 +14,7 @@ body {
 .main {
     background-color: #0a0a0a;
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(61, 201, 14, 0.2);
+    box-shadow: 0 0 5px rgba(61, 201, 14, 0.9);
     padding: 10px 20px;
     transition: transform 0.2s;
     width: 500px;
